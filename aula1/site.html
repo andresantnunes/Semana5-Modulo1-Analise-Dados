@@ -1,0 +1,304 @@
+
+Conversa com o Gemini
+Extraia o código dessa imagem
+
+Aqui está o código extraído da imagem:
+
+Python
+# Criando um DataFrame
+data = {'Nome': ['Ana', 'Bruno', 'Carlos'],
+        'Idade': [23, 35, 45],
+        'Cidade': ['São Paulo', 'Rio de Janeiro', 'Belo Horizonte']}
+df = pd.DataFrame(data)
+print(df)
+Nota: Para que este código funcione, certifique-se de ter a biblioteca pandas importada com o comando import pandas as pd.
+
+Crie um json de 10 itens para ser lido pelo pandas
+
+Para criar um arquivo JSON que seja facilmente lido pelo Pandas, o formato mais comum e "limpo" é uma lista de objetos (dicionários). Esse formato é reconhecido automaticamente pelo método pd.read_json().
+
+Aqui está um exemplo com 10 itens simulando dados de vendas:
+
+JSON
+[
+  { "id": 1, "produto": "Teclado Mecânico", "preco": 250.00, "estoque": 15, "categoria": "Periféricos" },
+  { "id": 2, "produto": "Mouse Gamer", "preco": 120.50, "estoque": 30, "categoria": "Periféricos" },
+  { "id": 3, "produto": "Monitor 24pol", "preco": 890.00, "estoque": 8, "categoria": "Monitores" },
+  { "id": 4, "produto": "Headset USB", "preco": 210.00, "estoque": 22, "categoria": "Áudio" },
+  { "id": 5, "produto": "Webcam 1080p", "preco": 320.00, "estoque": 12, "categoria": "Acessórios" },
+  { "id": 6, "produto": "Cadeira Office", "preco": 750.00, "estoque": 5, "categoria": "Móveis" },
+  { "id": 7, "produto": "SSD 480GB", "preco": 280.00, "estoque": 45, "categoria": "Hardware" },
+  { "id": 8, "produto": "Memória RAM 8GB", "preco": 190.00, "estoque": 60, "categoria": "Hardware" },
+  { "id": 9, "produto": "Cabo HDMI 2m", "preco": 35.00, "estoque": 100, "categoria": "Acessórios" },
+  { "id": 10, "produto": "Suporte Monitor", "preco": 110.00, "estoque": 18, "categoria": "Móveis" }
+]
+Como ler esse arquivo no Python
+Se você salvar o conteúdo acima como dados.json, o código para carregar no Pandas é extremamente simples:
+
+Python
+import pandas as pd
+
+# Lendo o arquivo JSON
+df = pd.read_json('dados.json')
+
+# Exibindo as primeiras linhas
+print(df.head())
+Dica Pro
+Se o seu JSON estiver em um formato diferente (como o formato de "colunas" ou "índices"), você pode ajustar o parâmetro orient na função:
+
+pd.read_json('arquivo.json', orient='records') -> Para o formato de lista acima (padrão).
+
+pd.read_json('arquivo.json', orient='split') -> Se o JSON separar explicitamente colunas, índices e dados.
+
+Crie dados para o tipo de orientação split
+
+Para o tipo de orientação split, o JSON é estruturado de uma forma mais rígida e compacta, separando explicitamente os nomes das colunas, os rótulos das linhas (índices) e os valores propriamente ditos.
+
+Aqui está um exemplo com 10 itens representando dados de Desempenho de Vendas por Vendedor:
+
+JSON
+{
+  "columns": ["ID", "Vendedor", "Vendas", "Meta_Atingida", "Regiao"],
+  "index": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "data": [
+    [101, "Alice", 15200.50, true, "Norte"],
+    [102, "Bruno", 9800.00, false, "Sul"],
+    [103, "Carla", 12300.75, true, "Sudeste"],
+    [104, "Diego", 8500.00, false, "Centro-Oeste"],
+    [105, "Elena", 18900.20, true, "Nordeste"],
+    [106, "Fabio", 11000.00, true, "Sul"],
+    [107, "Gisele", 7200.40, false, "Norte"],
+    [108, "Hugo", 14500.00, true, "Sudeste"],
+    [109, "Iara", 10200.10, false, "Nordeste"],
+    [110, "Joao", 13100.00, true, "Centro-Oeste"]
+  ]
+}
+Como ler este formato no Pandas
+Ao usar o orient='split', o Pandas espera encontrar exatamente as chaves "columns", "index" e "data". Se uma delas faltar (exceto o index, que ele pode gerar), o código retornará um erro.
+
+Python
+import pandas as pd
+
+# Carregando o JSON com a orientação correta
+df = pd.read_json('vendas_split.json', orient='split')
+
+print(df)
+Por que usar o formato Split?
+Eficiência de Espaço: Como os nomes das colunas são escritos apenas uma vez (e não repetidos em cada linha como no formato records), o arquivo final fica consideravelmente menor em grandes conjuntos de dados.
+
+Integridade: Ele garante que a ordem das colunas e os índices originais sejam preservados exatamente como foram exportados.
+
+Gere um html e um xml para serem lidos no pandas
+
+Para facilitar o teu trabalho com o Pandas, gerei dois ficheiros (HTML e XML) contendo uma tabela de 10 itens sobre o desempenho de vendedores.
+
+1. Ficheiro HTML
+O Pandas utiliza a função read_html() para extrair tabelas de páginas web. Esta função devolve sempre uma lista de DataFrames, pois um ficheiro HTML pode conter múltiplas tabelas (<table>).
+Ícone do app HTML
+ dados_vendas 
+HTML
+
+Como ler no Pandas:
+
+Python
+import pandas as pd
+
+# read_html retorna uma lista de todos os DataFrames encontrados no HTML
+tabelas = pd.read_html('dados_vendas.html')
+
+# Aceder à primeira tabela encontrada
+df_html = tabelas[0]
+print(df_html.head())
+2. Ficheiro XML
+O formato XML é estruturado hierarquicamente. O Pandas introduziu a função read_xml() nas versões mais recentes (1.3+) para facilitar esta leitura sem necessidade de bibliotecas externas complexas.
+
+[file-tag: code-generated-file-0-177854590583962070]
+
+Como ler no Pandas:
+
+Python
+import pandas as pd
+
+# Leitura direta do XML
+df_xml = pd.read_xml('dados_vendas.xml')
+
+print(df_xml.head())
+Resumo dos Comandos:
+Formato	Comando de Escrita	Comando de Leitura	Nota Importante
+HTML	df.to_html()	pd.read_html()	Retorna uma lista de DataFrames.
+XML	df.to_xml()	pd.read_xml()	Requer estrutura de nós (root e row).
+Crie uma formatação para o html
+
+Para tornar o ficheiro HTML mais profissional e legível (parecido com um relatório de dashboard), podemos adicionar estilos CSS diretamente no ficheiro. Vou criar uma versão com um design limpo, cabeçalho colorido, linhas alternadas e efeitos de interação (hover).
+
+Aqui está o código para gerar esse HTML formatado:
+
+O ficheiro HTML foi criado com uma formatação moderna e profissional.
+
+O que foi adicionado:
+Tipografia: Utilização de fontes sem-serifa para melhor leitura.
+
+Cores: Cabeçalho em azul (#3498db) com texto em branco.
+
+Zebra Styling: Linhas alternadas em cinza claro para facilitar o acompanhamento visual dos dados.
+
+Efeito Hover: As linhas mudam de cor quando passas o rato por cima.
+
+Sombras e Bordas: A tabela está inserida num "card" branco com cantos arredondados e uma sombra subtil.
+
+Ícone do app HTML
+ dados_vend..._formatado 
+HTML
+Como carregar isto no Pandas:
+Mesmo com toda esta formatação visual (CSS e tags extras), o Pandas continua a ser capaz de extrair apenas os dados da tabela:
+
+Python
+import pandas as pd
+
+# O Pandas ignora o CSS e as divs, focando apenas na tag <table>
+tabelas = pd.read_html('dados_vendas_formatado.html')
+df = tabelas[0]
+
+print(df.info())
+
+
+
+
+Suas conversas com SENAI-SC Serviço Nacional de Aprendizagem Industrial não são usadas para aprimorar nossos modelos. O Gemini é uma IA e pode cometer erros. Sua privacidade e o GeminiAbre em uma nova janela
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Vendas Formatado</title>
+    
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f7f6;
+        padding: 40px;
+        color: #333;
+    }
+    .table-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th {
+        background-color: #3498db;
+        color: white;
+        padding: 12px 15px;
+        text-align: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+        transition: 0.3s;
+    }
+    .status-ok {
+        color: #27ae60;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+    <div class="table-container">
+        <h2>📊 Relatório de Desempenho de Vendas</h2>
+        <p>Dados consolidados do último trimestre por região.</p>
+        <table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ID</th>
+      <th>Vendedor</th>
+      <th>Vendas</th>
+      <th>Regiao</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101</td>
+      <td>Alice</td>
+      <td>15200.50</td>
+      <td>Norte</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Bruno</td>
+      <td>9800.00</td>
+      <td>Sul</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Carla</td>
+      <td>12300.75</td>
+      <td>Sudeste</td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>Diego</td>
+      <td>8500.00</td>
+      <td>Centro-Oeste</td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>Elena</td>
+      <td>18900.20</td>
+      <td>Nordeste</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>Fabio</td>
+      <td>11000.00</td>
+      <td>Sul</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>Gisele</td>
+      <td>7200.40</td>
+      <td>Norte</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>Hugo</td>
+      <td>14500.00</td>
+      <td>Sudeste</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>Iara</td>
+      <td>10200.10</td>
+      <td>Nordeste</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>Joao</td>
+      <td>13100.00</td>
+      <td>Centro-Oeste</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

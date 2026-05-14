@@ -1,0 +1,22 @@
+[
+    {
+        "Produto": "Mouse",
+        "Preco": 80,
+        "Estoque": 45
+    },
+    {
+        "Produto": "Teclado",
+        "Preco": 120,
+        "Estoque": 30
+    },
+    {
+        "Produto": "Monitor",
+        "Preco": 900,
+        "Estoque": 12
+    },
+    {
+        "Produto": "Cadeira",
+        "Preco": 450,
+        "Estoque": 8
+    }
+]

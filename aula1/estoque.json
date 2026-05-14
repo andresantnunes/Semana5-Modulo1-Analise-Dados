@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "produto": "Teclado Mecânico",
+    "preco": 250.00,
+    "estoque": 15,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 2,
+    "produto": "Mouse Gamer",
+    "preco": 120.50,
+    "estoque": 30,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 3,
+    "produto": "Monitor 24pol",
+    "preco": 890.00,
+    "estoque": 8,
+    "categoria": "Monitores"
+  },
+  {
+    "id": 4,
+    "produto": "Headset USB",
+    "preco": 210.00,
+    "estoque": 22,
+    "categoria": "Áudio"
+  },
+  {
+    "id": 5,
+    "produto": "Webcam 1080p",
+    "preco": 320.00,
+    "estoque": 12,
+    "categoria": "Acessórios"
+  },
+  {
+    "id": 6,
+    "produto": "Cadeira Office",
+    "preco": 750.00,
+    "estoque": 5,
+    "categoria": "Móveis"
+  },
+  {
+    "id": 7,
+    "produto": "SSD 480GB",
+    "preco": 280.00,
+    "estoque": 45,
+    "categoria": "Hardware"
+  },
+  {
+    "id": 8,
+    "produto": "Memória RAM 8GB",
+    "preco": 190.00,
+    "estoque": 60,
+    "categoria": "Hardware"
+  },
+  {
+    "id": 9,
+    "produto": "Cabo HDMI 2m",
+    "preco": 35.00,
+    "estoque": 100,
+    "categoria": "Acessórios"
+  },
+  {
+    "id": 10,
+    "produto": "Suporte Monitor",
+    "preco": 110.00,
+    "estoque": 18,
+    "categoria": "Móveis"
+  }
+]

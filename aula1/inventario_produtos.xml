@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Stock_Global>
+  <Produto_Item>
+    <SKU>PROD-001</SKU>
+    <Produto>Teclado</Produto>
+    <Quantidade>50</Quantidade>
+    <Armazem>Lisboa</Armazem>
+    <Preco_Unitario>45.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-002</SKU>
+    <Produto>Rato</Produto>
+    <Quantidade>120</Quantidade>
+    <Armazem>Porto</Armazem>
+    <Preco_Unitario>25.5</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-003</SKU>
+    <Produto>Monitor</Produto>
+    <Quantidade>15</Quantidade>
+    <Armazem>Lisboa</Armazem>
+    <Preco_Unitario>180.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-004</SKU>
+    <Produto>Cabo HDMI</Produto>
+    <Quantidade>200</Quantidade>
+    <Armazem>Coimbra</Armazem>
+    <Preco_Unitario>12.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-005</SKU>
+    <Produto>Webcam</Produto>
+    <Quantidade>30</Quantidade>
+    <Armazem>Porto</Armazem>
+    <Preco_Unitario>55.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-006</SKU>
+    <Produto>Tapete Rato</Produto>
+    <Quantidade>85</Quantidade>
+    <Armazem>Lisboa</Armazem>
+    <Preco_Unitario>15.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-007</SKU>
+    <Produto>Suporte</Produto>
+    <Quantidade>40</Quantidade>
+    <Armazem>Faro</Armazem>
+    <Preco_Unitario>35.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-008</SKU>
+    <Produto>Hub USB</Produto>
+    <Quantidade>60</Quantidade>
+    <Armazem>Porto</Armazem>
+    <Preco_Unitario>22.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-009</SKU>
+    <Produto>Adaptador</Produto>
+    <Quantidade>150</Quantidade>
+    <Armazem>Coimbra</Armazem>
+    <Preco_Unitario>10.0</Preco_Unitario>
+  </Produto_Item>
+  <Produto_Item>
+    <SKU>PROD-010</SKU>
+    <Produto>Coluna BT</Produto>
+    <Quantidade>25</Quantidade>
+    <Armazem>Faro</Armazem>
+    <Preco_Unitario>65.0</Preco_Unitario>
+  </Produto_Item>
+</Stock_Global>

@@ -1,0 +1,16 @@
+{
+  "columns": ["id", "vendedor", "vendas", "meta_atingida", "regiao"],
+  "index": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "data": [
+    [101, "Alice", 15200.50, true, "Norte"],
+    [102, "Bruno", 9800.00, false, "Sul"],
+    [103, "Carla", 12300.75, true, "Sudeste"],
+    [104, "Diego", 8500.00, false, "Centro-Oeste"],
+    [105, "Elena", 18900.20, true, "Nordeste"],
+    [106, "Fabio", 11000.00, true, "Sul"],
+    [107, "Gisele", 7200.40, false, "Norte"],
+    [108, "Hugo", 14500.00, true, "Sudeste"],
+    [109, "Iara", 10200.10, false, "Nordeste"],
+    [110, "Joao", 13100.00, true, "Centro-Oeste"]
+  ]
+}
