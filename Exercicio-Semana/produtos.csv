@@ -1,0 +1,32 @@
+﻿id_produto,nome_produto,id_categoria,custo_unitario,preco_venda
+1,Paracetamol 750mg (20 comp),1,4.5,12.9
+2,Ibuprofeno 600mg (20 comp),1,7.2,18.5
+3,Amoxicilina 500mg (21 cáps),1,12.0,25.0
+4,Dipirona Monohidratada 1g (10 comp),1,3.5,9.9
+5,Sabonete Barra Hidratante 90g,2,1.2,3.5
+6,Desodorante Antitranspirante Roll-on,2,6.5,14.9
+7,Papel Higiênico Folha Dupla (4 rolos),2,4.0,8.9
+8,Protetor Solar FPS 60 200ml,3,38.0,75.0
+9,Gel de Limpeza Facial 150g,3,22.0,49.9
+10,Creme Hidratante Anti-idade 50g,3,55.0,120.0
+11,Multivitamínico de A a Z (60 caps),4,18.0,45.0
+12,Vitamina C 1g Efervescente,4,8.5,22.0
+13,Colágeno Hidrolisado 300g,4,35.0,89.9
+14,Fralda Descartável Tam G (40 un),5,28.0,52.0
+15,Leite em Pó Infantil 800g,5,32.0,58.0
+16,Pomada para Assaduras 45g,5,9.0,21.5
+17,Creme Dental Clareador 90g,6,4.2,12.5
+18,Escova de Dentes Macia,6,5.0,15.0
+19,Enxaguante Bucal sem Álcool 500ml,6,11.0,24.9
+20,Curativos Adesivos (caixa c/ 20),7,3.5,8.5
+21,Álcool em Gel 70% 500ml,7,6.0,12.0
+22,Gaze Estéril (pacote c/ 10),7,1.5,4.5
+23,Joelheira de Neoprene Tam M,8,25.0,55.0
+24,Tornozeleira Ajustável,8,18.0,39.9
+25,Tipoia Imobilizadora,8,22.0,48.0
+26,Shampoo Anticaspa Profissional 200ml,9,15.0,34.0
+27,Condicionador Reconstrução 400ml,9,12.5,28.9
+28,Máscara de Hidratação 250g,9,20.0,45.0
+29,Termômetro Digital,10,8.0,25.0
+30,Aparelho de Pressão Digital de Pulso,10,85.0,189.0
+31,Inalador Nebulizador Portátil,10,110.0,245.0
