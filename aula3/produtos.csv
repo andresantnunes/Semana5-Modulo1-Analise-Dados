@@ -1,0 +1,101 @@
+Codigo;idCategoria;Descricao;Estoque;Preco;Vencimento
+1000;1;Arroz Vida Refinado;238;16.09;2026-09-27
+1001;1;Farinha Especial Integral;40;11.63;2027-02-08
+1002;1;Biscoito Saboroso Premium;235;46.25;2027-03-26
+1003;1;Macarrão Especial Extra;294;17.64;2027-05-25
+1004;1;Feijão Especial Light;377;85.05;2028-02-23
+1005;3;Shampoo Econômico Light;954;39.37;2028-01-01
+1006;3;Fio Dental Tradicional Refinado;731;9.27;2028-04-22
+1007;2;Água Sanitária Qualidade Refinado;897;12.34;2027-03-26
+1008;4;Chá Gelado Fazenda Zero;389;37.1;2028-05-01
+1009;3;Condicionador Tradicional Zero;556;73.52;2026-11-29
+1010;4;Cerveja Vida Refinado;711;34.09;2026-08-11
+1011;2;Detergente Fazenda Premium;284;8.95;2028-01-16
+1012;3;Creme Dental Econômico Premium;915;91.58;2027-09-27
+1013;2;Água Sanitária Top Refinado;772;57.18;2027-03-11
+1014;4;Vinho Especial Extra;234;99.64;2026-11-03
+1015;4;Suco de Uva Premium Light;166;63.61;2028-05-11
+1016;4;Vinho Qualidade Premium;400;60.54;2027-10-07
+1017;3;Shampoo Qualidade Caseiro;797;64.93;2026-10-07
+1018;3;Escova de Dente Top Orgânico;13;95.4;2027-03-11
+1019;2;Amaciante Vida Refinado;166;38.92;2026-11-27
+1020;1;Farinha Fazenda Orgânico;29;13.4;2027-06-21
+1021;3;Creme Dental Premium Refinado;909;57.76;2026-09-03
+1022;1;Leite Qualidade Zero;141;66.76;2027-12-29
+1023;2;Água Sanitária Natural Premium;997;23.13;2027-12-19
+1024;2;Água Sanitária Especial Extra;458;90.12;2027-09-20
+1025;1;Azeite Saboroso Light;356;4.55;2028-01-03
+1026;2;Sabão em Pó Premium Light;734;63.97;2027-02-04
+1027;1;Arroz Fazenda Light;536;25.68;2028-04-30
+1028;4;Refrigerante Natural Zero;750;93.62;2028-01-20
+1029;4;Refrigerante Econômico Premium;204;11.69;2028-04-19
+1030;4;Água Mineral Especial Premium;488;86.64;2026-08-09
+1031;1;Arroz Especial Extra;829;86.43;2027-02-24
+1032;2;Sabão em Pó Natural Orgânico;153;43.59;2027-03-27
+1033;4;Refrigerante Qualidade Orgânico;837;86.4;2027-12-30
+1034;1;Arroz Natural Integral;105;92.73;2027-02-12
+1035;2;Limpador Multiuso Econômico Orgânico;228;86.72;2026-08-14
+1036;2;Limpador Multiuso Premium Premium;281;92.74;2027-09-23
+1037;3;Escova de Dente Natural Orgânico;168;21.0;2027-01-23
+1038;1;Farinha Natural Integral;775;33.05;2026-08-05
+1039;4;Vinho Natural Zero;68;96.08;2026-09-05
+1040;2;Amaciante Tradicional Light;701;86.44;2027-08-02
+1041;1;Farinha Saboroso Integral;644;10.49;2028-04-18
+1042;3;Desodorante Saboroso Extra;254;28.37;2026-10-27
+1043;3;Papel Higiênico Fazenda Light;19;47.14;2028-01-12
+1044;1;Feijão Natural Refinado;528;28.33;2027-06-07
+1045;1;Azeite Fazenda Caseiro;171;45.18;2027-12-23
+1046;3;Shampoo Natural Caseiro;964;67.11;2026-10-30
+1047;3;Condicionador Qualidade Zero;288;29.94;2027-01-16
+1048;3;Creme Dental Vida Orgânico;267;90.68;2026-08-06
+1049;1;Sal Vida Integral;13;34.99;2026-10-26
+1050;3;Sabonete Econômico Premium;584;3.44;2026-08-31
+1051;2;Detergente Fazenda Zero;450;14.91;2027-04-26
+1052;3;Shampoo Fazenda Refinado;708;26.8;2026-09-28
+1053;3;Escova de Dente Tradicional Zero;957;93.07;2026-11-28
+1054;2;Limpador Multiuso Premium Zero;764;92.55;2027-08-10
+1055;2;Água Sanitária Top Light;401;87.45;2027-10-09
+1056;2;Sabão em Pó Econômico Extra;322;82.42;2027-02-03
+1057;2;Detergente Saboroso Premium;346;29.64;2026-08-25
+1058;3;Fio Dental Natural Premium;705;98.06;2027-12-16
+1059;3;Shampoo Qualidade Caseiro;192;59.05;2027-03-13
+1060;1;Feijão Tradicional Premium;363;73.46;2027-05-02
+1061;4;Vinho Natural Light;404;90.11;2026-12-26
+1062;3;Shampoo Especial Integral;542;92.65;2027-12-18
+1063;2;Esponja Especial Light;981;67.2;2027-05-19
+1064;3;Condicionador Vida Caseiro;692;42.28;2027-08-01
+1065;3;Sabonete Saboroso Premium;690;94.09;2028-05-08
+1066;2;Água Sanitária Especial Integral;321;30.45;2027-08-29
+1067;3;Papel Higiênico Econômico Orgânico;701;23.31;2027-10-12
+1068;2;Amaciante Vida Extra;105;82.21;2027-02-10
+1069;3;Creme Dental Saboroso Zero;35;7.0;2027-10-14
+1070;1;Leite Especial Refinado;745;70.32;2027-11-03
+1071;4;Refrigerante Top Integral;924;75.64;2026-10-02
+1072;4;Refrigerante Top Orgânico;61;56.79;2026-10-17
+1073;4;Refrigerante Econômico Extra;982;76.06;2027-09-11
+1074;4;Energético Natural Orgânico;928;18.0;2027-10-14
+1075;4;Água Mineral Saboroso Caseiro;794;78.25;2027-10-24
+1076;2;Água Sanitária Econômico Light;740;30.33;2027-03-20
+1077;3;Fio Dental Natural Light;151;17.19;2027-07-12
+1078;2;Sabão em Pó Qualidade Premium;427;34.73;2027-10-05
+1079;4;Suco de Uva Saboroso Premium;408;90.63;2028-02-03
+1080;1;Farinha Especial Orgânico;16;94.32;2027-04-16
+1081;4;Energético Especial Refinado;509;23.87;2027-09-04
+1082;4;Suco de Uva Especial Extra;694;68.65;2027-08-03
+1083;2;Sabão em Barra Top Integral;938;40.88;2028-01-13
+1084;1;Feijão Especial Zero;897;47.47;2026-08-05
+1085;3;Escova de Dente Fazenda Refinado;475;34.33;2027-07-08
+1086;3;Escova de Dente Vida Light;491;4.39;2027-12-19
+1087;1;Açúcar Saboroso Light;809;95.74;2026-07-26
+1088;1;Azeite Saboroso Integral;646;17.34;2026-10-22
+1089;4;Chá Gelado Qualidade Refinado;486;70.63;2027-06-27
+1090;2;Amaciante Top Caseiro;120;58.86;2027-04-30
+1091;4;Cerveja Saboroso Light;616;69.77;2028-03-18
+1092;2;Amaciante Vida Light;825;98.33;2026-07-27
+1093;3;Escova de Dente Fazenda Light;528;65.57;2026-06-27
+1094;4;Energético Econômico Light;453;96.08;2028-03-26
+1095;4;Chá Gelado Top Premium;190;73.97;2028-04-11
+1096;3;Papel Higiênico Econômico Premium;855;73.7;2027-03-16
+1097;3;Creme Dental Qualidade Caseiro;912;46.41;2027-10-03
+1098;4;Água Mineral Premium Orgânico;881;34.16;2027-10-27
+1099;2;Esponja Vida Extra;296;88.24;2027-03-24
